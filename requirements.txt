@@ -1,0 +1,9 @@
+# requirements file
+
+#python 3.13
+
+pillow==11.1.0
+
+# hugging face things
+smolagents[telemetry]==1.13.0
+
