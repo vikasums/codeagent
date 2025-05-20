@@ -1,10 +1,10 @@
 # Code Agent
 
-A repository for code agent experiments and tutorials using Hugging Face's smolagents library and Ollama for local LLM inference.
+A repository for code agent experiments and tutorials using Hugging Face's smolagents library.
 
 ## Description
 
-This repository contains code and resources for exploring and learning about code agents. It demonstrates how to create and use code agents with both Hugging Face API and local Ollama models.
+This repository contains code and resources for exploring and learning about code agents. It demonstrates how to create and use code agents with Hugging Face API.
 
 ## Project Components
 
@@ -45,13 +45,6 @@ The main Jupyter notebook demonstrates:
    - Copy `.env.example` to `.env`
    - Add your Hugging Face API key
 
-## Alternative Approaches
-
-If you encounter Hugging Face API credit limitations, the project can be adapted to use local models through Ollama:
-
-1. Install Ollama from [ollama.ai](https://ollama.ai)
-2. Pull a compatible model: `ollama pull qwen3:1.7b`
-3. Create a custom wrapper for the Ollama API
 
 ## Getting Started
 
